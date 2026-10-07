@@ -1,0 +1,14 @@
+{
+  "name": "grocery-cart-tests",
+  "version": "1.0.0",
+  "description": "Exercises: grocery cart total and 10% discount for purchases over R$ 200",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha tests"
+  },
+  "license": "module",
+  "devDependencies": {
+    "mocha": "^12.0.3"
+  }
+}
