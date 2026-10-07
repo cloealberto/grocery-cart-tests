@@ -18,17 +18,27 @@ Example from the statement:
 
 ## Project structure
 
+
 ```
 grocery-cart-tests/
+├── .gitignore
 ├── package.json
 ├── package-lock.json
 ├── README.md
+├── features/
+│   ├── exercise1.feature  
+│   └── exercise2.feature  
 ├── src/
-│   ├── cart.js           
-│   └── index.js          
+│   ├── cart.js          
+│   └── index.js         
 └── tests/
-    ├── exercise1.test.js
-    └── exercise2.test.js
+    ├── exercise1.test.js 
+    └── exercise2.test.js  
+```
+
+### Feature files
+
+The `features/` folder describes each exercise in Gherkin (Given / When / Then). Each scenario matches one Mocha test in `tests/`, with the same name and the same data. They are used as living documentation and are not executed by `npm test`.
 ```
 
 ## Prerequisites
